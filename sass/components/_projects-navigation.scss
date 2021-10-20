@@ -14,8 +14,10 @@
   }
 }
 
-.projects-btn-item:not(:last-child) {
-  margin-right: 8px;
+.projects-btn-item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 
 .projects-btn {

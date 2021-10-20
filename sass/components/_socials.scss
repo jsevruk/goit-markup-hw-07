@@ -3,8 +3,10 @@
   justify-content: center;
 }
 
-.social-item + .social-item {
-  margin-left: 10px;
+.social-item {
+  & + & {
+    margin-left: 10px;
+  }
 }
 
 .social-link {

@@ -18,7 +18,6 @@
    .link.current {
     color: var(--accent-color);
   }
-
    .current::after {
     content: "";
     position: absolute;
@@ -32,8 +31,10 @@
   }
 }
 
-.header-item:not(:last-child) {
-  margin-right: 50px;
+.header-item, .header-contacts-item {
+  &:not(:last-child) {
+    margin-right: 50px;
+  }
 }
 
 .header-logo {
@@ -71,10 +72,6 @@
   display: flex;
   align-items: center;
   margin-left: auto;
-}
-
-.header-contacts-item:not(:last-child) {
-  margin-right: 50px;
 }
 
 .header-icon-envelope {
