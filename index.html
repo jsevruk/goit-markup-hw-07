@@ -23,28 +23,28 @@
 
 <body>
 <header class="header">
-    <div class="container header-container">
-        <nav class="header-navigation">
-            <a class="header-logo link" href="./index.html"
+    <div class="container header__container">
+        <nav class="header__navigation">
+            <a class="header__logo link" href="./index.html"
             >Web<span class="header-logo-black">Studio</span></a
             >
             <ul class="header-list list">
-                <li class="header-item">
-                    <a class="header-link link current" href="">Студия</a>
+                <li class="header-list__item">
+                    <a class="header-list__link link header-list__link__current" href="">Студия</a>
                 </li>
-                <li class="header-item">
-                    <a class="header-link link" href="./portfolio.html">Портфолио</a>
+                <li class="header-list__item">
+                    <a class="header-list__link link" href="./portfolio.html">Портфолио</a>
                 </li>
-                <li class="header-item">
-                    <a class="header-link link" href="">Контакты</a>
+                <li class="header-list__item">
+                    <a class="header-list__link link" href="">Контакты</a>
                 </li>
             </ul>
         </nav>
 
-        <ul class="header-contacts-list list">
-            <li class="header-contacts-item">
+        <ul class="header-contacts list">
+            <li class="header-contacts__item">
                 <a
-                        class="header-contacts-link link"
+                        class="header-contacts__link link"
                         href="mailto:info@devstudio.com"
                 >
                     <svg class="header-icon-envelope" width="16" height="12">
@@ -53,8 +53,8 @@
                     info@devstudio.com</a
                 >
             </li>
-            <li class="header-contacts-item">
-                <a class="header-contacts-link link" href="tel:+380961111111">
+            <li class="header-contacts__item">
+                <a class="header-contacts__link link" href="tel:+380961111111">
                     <svg class="header-icon-smartphone" width="10" height="16">
                         <use href="./images/icons.svg#smartphone"></use>
                     </svg>
@@ -67,9 +67,9 @@
 
 <main>
     <section class="hero">
-        <div class="container hero-container">
-            <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-primary-btn btn" data-modal-open type="button">
+        <div class="container hero__container">
+            <h1 class="hero__title">Эффективные решения для вашего бизнеса</h1>
+            <button class="hero__primary-btn btn" data-modal-open type="button">
                 Заказать услугу
             </button>
         </div>
@@ -80,50 +80,50 @@
 
         <div class="container">
             <ul class="preference-list list">
-                <li class="preference-item">
-                    <div class="preference-icon">
+                <li class="preference-list__item">
+                    <div class="preference-list__icon">
                         <svg class="preference-icon-svg">
                             <use href="./images/icons.svg#antenna"></use>
                         </svg>
                     </div>
-                    <h3 class="preference-title">Внимание к деталям</h3>
-                    <p class="preference-text">
+                    <h3 class="preference-list__title">Внимание к деталям</h3>
+                    <p class="preference-list__text">
                         Идейные соображения, а также начало повседневной работы по
                         формированию позиции.
                     </p>
                 </li>
-                <li class="preference-item">
-                    <div class="preference-icon">
+                <li class="preference-list__item">
+                    <div class="preference-list__icon">
                         <svg class="preference-icon-svg">
                             <use href="./images/icons.svg#clock"></use>
                         </svg>
                     </div>
-                    <h3 class="preference-title">Пунктуальность</h3>
-                    <p class="preference-text">
+                    <h3 class="preference-list__title">Пунктуальность</h3>
+                    <p class="preference-list__text">
                         Задача организации, в особенности же рамки и место обучения
                         кадров влечет за собой.
                     </p>
                 </li>
-                <li class="preference-item">
-                    <div class="preference-icon">
+                <li class="preference-list__item">
+                    <div class="preference-list__icon">
                         <svg class="preference-icon-svg">
                             <use href="./images/icons.svg#diagram"></use>
                         </svg>
                     </div>
-                    <h3 class="preference-title">Планирование</h3>
-                    <p class="preference-text">
+                    <h3 class="preference-list__title">Планирование</h3>
+                    <p class="preference-list__text">
                         Равным образом консультация с широким активом в значительной
                         степени обуславливает.
                     </p>
                 </li>
-                <li class="preference-item">
-                    <div class="preference-icon">
+                <li class="preference-list__item">
+                    <div class="preference-list__icon">
                         <svg class="preference-icon-svg">
                             <use href="./images/icons.svg#astronaut"></use>
                         </svg>
                     </div>
-                    <h3 class="preference-title">Современные технологии</h3>
-                    <p class="preference-text">
+                    <h3 class="preference-list__title">Современные технологии</h3>
+                    <p class="preference-list__text">
                         Значимость этих проблем настолько очевидна, что реализация
                         плановых заданий.
                     </p>
@@ -137,32 +137,32 @@
             <h2 class="about-title section-title">Чем мы занимаемся</h2>
 
             <ul class="about-list list">
-                <li class="about-item">
+                <li class="about-list__item">
                     <img
                             src="./images/box-1.jpg"
                             alt="ПО для компьютера"
                             height="294"
                             width="370"
                     />
-                    <p class="about-item-text">Десктопные приложения</p>
+                    <p class="about-list__text">Десктопные приложения</p>
                 </li>
-                <li class="about-item">
+                <li class="about-list__item">
                     <img
                             src="./images/box-2.jpg"
                             alt="ПО для телефона"
                             height="294"
                             width="370"
                     />
-                    <p class="about-item-text">Мобильные приложения</p>
+                    <p class="about-list__text">Мобильные приложения</p>
                 </li>
-                <li class="about-item">
+                <li class="about-list__item">
                     <img
                             src="./images/box-3.jpg"
                             alt="ПО для планшета"
                             height="294"
                             width="370"
                     />
-                    <p class="about-item-text">Дизайнерские решения</p>
+                    <p class="about-list__text">Дизайнерские решения</p>
                 </li>
             </ul>
         </div>

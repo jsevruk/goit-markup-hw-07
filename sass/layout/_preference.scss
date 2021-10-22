@@ -5,13 +5,13 @@
   margin-top: -30px;
 }
 
-.preference-item {
+.preference-list__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.preference-icon {
+.preference-list__icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,8 +26,7 @@
   height: 70px;
 }
 
-
-.preference-title {
+.preference-list__title {
   font-weight: 700;
   line-height: 1.14;
   margin-bottom: 10px;
@@ -35,6 +34,6 @@
   color: var(--primary-title-color);
 }
 
-.preference-text {
+.preference-list__text {
   line-height: 1.71;
 }
