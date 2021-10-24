@@ -1,11 +1,14 @@
   @import "./utils/variables";
   @import "./base/reset";
   @import "./base/common";
-  @import "./utils/hidden";
   @import "./components/container";
   @import "./components/btn";
   @import "./components/section";
   @import "./components/socials";
+  @import "./components/footer-form";
+  @import "./components/backdrop";
+  @import "./components/modal";
+  @import "./components/modal-form";
   @import "./layout/header";
   @import "./layout/hero";
   @import "./layout/preference";
@@ -13,11 +16,8 @@
   @import "./layout/team";
   @import "./layout/clients";
   @import "./layout/footer";
-  @import "./components/footer-social";
-  @import "./components/footer-form";
-  @import "./components/backdrop";
-  @import "./components/modal";
-  @import "./components/modal-form";
-  @import "./components/projects-navigation";
-  @import "./components/projects-list";
+  @import "./layout/projects";
+
+
+
 
